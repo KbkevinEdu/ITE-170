@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kevin's Education Grid</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    th {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    
+    <div class="grid-item">
+      <h1>Kevin Benitez</h1>
+      <h2>My Education</h2>
+      <p>I’m currently studying at Northern Virginia Community College and working toward a career in cybersecurity. Below is a list of courses I’ve taken so far:</p>
+    </div>
+
+    <div class="grid-item">
+      <h2>Courses I've Taken</h2>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Description</th>
+          <th>Term</th>
+          <th>Status</th>
+        </tr>
+        <tr><td>ITE 221</td><td>PC Hardware & O/S Arch</td><td>2025 Summer</td><td>In Progress</td></tr>
+        <tr><td>ITN 100</td><td>Intro to Telecommunications</td><td>2025 Summer</td><td>In Progress</td></tr>
+        <tr><td>ENG 279</td><td>Film & Literature</td><td>2025 Spring</td><td>In Progress</td></tr>
+        <tr><td>ITD 256</td><td>Advanced Database Mgmt</td><td>2025 Spring</td><td>In Progress</td></tr>
+        <tr><td>ITE 170</td><td>Multimedia Software</td><td>2025 Spring</td><td>In Progress</td></tr>
+        <tr><td>PLS 135</td><td>U.S. Government</td><td>2025 Spring</td><td>In Progress</td></tr>
+        <tr><td>ITP 120</td><td>Java Programming I</td><td>2024 Fall</td><td>Completed</td></tr>
+        <tr><td>ENG 112</td><td>College Composition II</td><td>2024 Fall</td><td>Completed</td></tr>
+        <tr><td>MTH 245</td><td>Statistics I</td><td>2024 Fall</td><td>Completed</td></tr>
+      </table>
+    </div>
+
+    <div class="grid-item">
+      <p style="text-align:center;">&copy; 2025 Kevin Benitez</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
